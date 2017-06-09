@@ -2,7 +2,7 @@
 //  SnapsViewController.swift
 //  
 //
-//  Created by DillerVaster on 21/05/17.
+//  Created by Rosario on 21/05/17.
 //
 //
 

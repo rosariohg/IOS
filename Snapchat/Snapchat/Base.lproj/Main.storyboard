@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -142,9 +142,17 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7JF-2g-G8c">
-                                <rect key="frame" x="26" y="74" width="323" height="552"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7JF-2g-G8c">
+                                <rect key="frame" x="26" y="115" width="323" height="511"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zva-hT-N0Z">
+                                <rect key="frame" x="164" y="77" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="|&gt;"/>
+                                <connections>
+                                    <action selector="playTapped:" destination="lbD-Xh-LdK" eventType="touchUpInside" id="dL0-KC-yAr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -162,11 +170,12 @@
                     <connections>
                         <outlet property="imageView" destination="7JF-2g-G8c" id="atE-Mp-vve"/>
                         <outlet property="label" destination="QvN-dg-Qyp" id="YNA-IP-Le2"/>
+                        <outlet property="playButton" destination="zva-hT-N0Z" id="sFx-xF-bcu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLd-k5-b88" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1697" y="844"/>
+            <point key="canvasLocation" x="1696.8" y="843.32833583208401"/>
         </scene>
         <!--Imagen View Controller-->
         <scene sceneID="Ohw-Xi-LbM">
@@ -207,15 +216,25 @@
                                 <rect key="frame" x="0.0" y="366" width="375" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKf-zG-JtU">
-                                        <rect key="frame" x="164" y="67" width="47" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrB-uA-Agg">
+                                        <rect key="frame" x="162" y="134" width="50" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Grabar"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" red="1" green="0.239502579043125" blue="0.98055410539412402" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playTapped:" destination="Yel-RB-PA9" eventType="touchUpInside" id="toC-5J-p8L"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrB-uA-Agg">
-                                        <rect key="frame" x="172" y="130" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKf-zG-JtU">
+                                        <rect key="frame" x="162" y="72" width="56" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Play"/>
+                                        <state key="normal" title="Grabar">
+                                            <color key="titleColor" red="1" green="0.23950257899999999" blue="0.98055410539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="grabarTapped:" destination="Yel-RB-PA9" eventType="touchUpInside" id="sry-mM-UnT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -244,8 +263,9 @@
                     <connections>
                         <outlet property="descripcionTextField" destination="dfy-Zb-u3k" id="vc7-Hp-3cI"/>
                         <outlet property="elegirContactoBoton" destination="8Nr-Al-zge" id="DXF-7G-Bvn"/>
+                        <outlet property="grabarButton" destination="dKf-zG-JtU" id="dia-MP-M0U"/>
                         <outlet property="imageView" destination="5Fn-At-GjA" id="HdO-pE-A7G"/>
-                        <outlet property="recordButton" destination="dKf-zG-JtU" id="s10-5c-jc3"/>
+                        <outlet property="playButton" destination="XrB-uA-Agg" id="A1r-A9-Zci"/>
                         <segue destination="1xF-vB-AX6" kind="show" identifier="seleccionarContactoSegue" id="y2g-3j-1QS"/>
                     </connections>
                 </viewController>
