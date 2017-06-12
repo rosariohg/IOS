@@ -18,7 +18,7 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Red">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NpK-vV-OeT" firstAttribute="top" secondItem="YhG-MT-v0b" secondAttribute="bottom" constant="30" id="Dc6-ub-sAV"/>
                             <constraint firstItem="YhG-MT-v0b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MZj-xG-I98"/>
@@ -88,12 +88,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D8M-h0-qy9">
-                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D8M-h0-qy9">
+                                <rect key="frame" x="23" y="64" width="343" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qva-fT-md3" firstAttribute="top" secondItem="D8M-h0-qy9" secondAttribute="bottom" id="LRR-g9-krf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="D8M-h0-qy9" secondAttribute="trailing" id="Qwg-le-CfU"/>
@@ -103,13 +103,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="jZG-tD-gXe">
                         <barButtonItem key="leftBarButtonItem" title="Cerrar Sesión" id="1mE-DV-mQ0">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
                                 <action selector="cerrarSesionTapped:" destination="P1C-xg-RhD" id="Wnl-tC-hnK"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="kD2-M1-f7F">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
                                 <segue destination="Yel-RB-PA9" kind="show" id="hxL-qe-H16"/>
                             </connections>
@@ -148,13 +148,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zva-hT-N0Z">
                                 <rect key="frame" x="164" y="77" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="|&gt;"/>
                                 <connections>
                                     <action selector="playTapped:" destination="lbD-Xh-LdK" eventType="touchUpInside" id="dL0-KC-yAr"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QvN-dg-Qyp" firstAttribute="leading" secondItem="h2p-M9-Kxw" secondAttribute="leadingMargin" constant="5" id="ILs-y1-ypE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QvN-dg-Qyp" secondAttribute="trailing" constant="5" id="JhV-H3-BBt"/>
@@ -206,7 +206,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nr-Al-zge">
                                 <rect key="frame" x="135" y="277" width="106" height="30"/>
                                 <state key="normal" title="Elegir Contacto">
-                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="elegirContactoTapped:" destination="Yel-RB-PA9" eventType="touchUpInside" id="KKB-fG-bUp"/>
@@ -220,7 +220,7 @@
                                         <rect key="frame" x="162" y="134" width="50" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Play">
-                                            <color key="titleColor" red="1" green="0.239502579043125" blue="0.98055410539412402" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                         </state>
                                         <connections>
                                             <action selector="playTapped:" destination="Yel-RB-PA9" eventType="touchUpInside" id="toC-5J-p8L"/>
@@ -230,17 +230,17 @@
                                         <rect key="frame" x="162" y="72" width="56" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Grabar">
-                                            <color key="titleColor" red="1" green="0.23950257899999999" blue="0.98055410539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                         </state>
                                         <connections>
                                             <action selector="grabarTapped:" destination="Yel-RB-PA9" eventType="touchUpInside" id="sry-mM-UnT"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8Nr-Al-zge" firstAttribute="top" secondItem="dfy-Zb-u3k" secondAttribute="bottom" constant="20" id="1Sd-c9-609"/>
                             <constraint firstItem="dfy-Zb-u3k" firstAttribute="centerX" secondItem="0NI-FX-Mjg" secondAttribute="centerX" id="2fd-Sn-jYw"/>
@@ -254,6 +254,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="G5Q-jj-fYA">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="VST-nU-rXw">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="camaraTapped:" destination="Yel-RB-PA9" id="y3P-Cn-Qcr"/>
                             </connections>
@@ -290,7 +291,6 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="05z-b5-44Q" secondAttribute="trailing" id="8Qt-a1-5QG"/>
                             <constraint firstItem="05z-b5-44Q" firstAttribute="top" secondItem="zEy-tz-j8t" secondAttribute="bottom" id="FTK-I7-6Tx"/>

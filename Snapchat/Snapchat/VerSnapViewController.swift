@@ -91,18 +91,17 @@ class VerSnapViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        /*
-         FIRDatabase.database().reference().child("usuarios").child(FIRAuth.auth()!.currentUser!.uid).child("snaps").child(snap.id).removeValue()
+        FIRDatabase.database().reference().child("usuarios").child(FIRAuth.auth()!.currentUser!.uid).child("snaps").child(snap.id).removeValue()
         if snap.tipo == "imagen"{
             FIRStorage.storage().reference().child("imagenes").child("\(snap.storageID).jpg").delete{(error) in
                 print("Se eliminó la imagen correctamente")
             }
         } else if snap.tipo == "sonido" {
-         FIRStorage.storage().reference().child("audios").child("\(snap.storageID).jpg").delete{(error) in
-         print("Se eliminó el audio correctamente")
+            FIRStorage.storage().reference().child("audios").child("\(snap.storageID).m4a").delete{(error) in
+                print("Se eliminó el audio correctamente")
+            }
+         
          }
-         }
-        */
         
     }
 

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Snapchat
 //
-//  Created by DillerVaster on 21/05/17.
+//  Created by Rosario on 21/05/17.
 //  Copyright © 2017 Tecsup. All rights reserved.
 //
 
