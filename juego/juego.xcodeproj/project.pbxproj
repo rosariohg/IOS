@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D222341F02A8F200AFA32A /* JuegoTerminadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D222331F02A8F200AFA32A /* JuegoTerminadoViewController.swift */; };
+		24D222361F02B1B000AFA32A /* PuntajesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D222351F02B1B000AFA32A /* PuntajesViewController.swift */; };
+		24D222381F02B27200AFA32A /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D222371F02B27200AFA32A /* Usuario.swift */; };
+		24F18AA31F01D04D007E7158 /* JugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F18AA21F01D04D007E7158 /* JugarViewController.swift */; };
+		24F18AA51F01D265007E7158 /* Pregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F18AA41F01D265007E7158 /* Pregunta.swift */; };
+		24F18AA91F01E317007E7158 /* CorrectoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F18AA81F01E317007E7158 /* CorrectoViewController.swift */; };
+		3534E884825BAE877172B579 /* Pods_juego.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1028321ED4F1F7445CA3B02 /* Pods_juego.framework */; };
+		CD38B5B01F01966B00090EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5AF1F01966B00090EEA /* AppDelegate.swift */; };
+		CD38B5B21F01966B00090EEA /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5B11F01966B00090EEA /* IniciarSesionViewController.swift */; };
+		CD38B5B51F01966B00090EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD38B5B31F01966B00090EEA /* Main.storyboard */; };
+		CD38B5B71F01966B00090EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD38B5B61F01966B00090EEA /* Assets.xcassets */; };
+		CD38B5BA1F01966B00090EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD38B5B81F01966B00090EEA /* LaunchScreen.storyboard */; };
+		CD38B5C21F01990C00090EEA /* OpcionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38B5C11F01990C00090EEA /* OpcionesViewController.swift */; };
+		CD38B5C41F019DAA00090EEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD38B5C31F019DAA00090EEA /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D222331F02A8F200AFA32A /* JuegoTerminadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegoTerminadoViewController.swift; sourceTree = "<group>"; };
+		24D222351F02B1B000AFA32A /* PuntajesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuntajesViewController.swift; sourceTree = "<group>"; };
+		24D222371F02B27200AFA32A /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		24F18AA21F01D04D007E7158 /* JugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugarViewController.swift; sourceTree = "<group>"; };
+		24F18AA41F01D265007E7158 /* Pregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta.swift; sourceTree = "<group>"; };
+		24F18AA81F01E317007E7158 /* CorrectoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectoViewController.swift; sourceTree = "<group>"; };
+		5C5FAB625BB724341B22AA40 /* Pods-juego.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-juego.debug.xcconfig"; path = "Pods/Target Support Files/Pods-juego/Pods-juego.debug.xcconfig"; sourceTree = "<group>"; };
+		6F041F55791B3EEC1307843E /* Pods-juego.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-juego.release.xcconfig"; path = "Pods/Target Support Files/Pods-juego/Pods-juego.release.xcconfig"; sourceTree = "<group>"; };
+		CD38B5AC1F01966B00090EEA /* juego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD38B5AF1F01966B00090EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD38B5B11F01966B00090EEA /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
+		CD38B5B41F01966B00090EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD38B5B61F01966B00090EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD38B5B91F01966B00090EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD38B5BB1F01966B00090EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD38B5C11F01990C00090EEA /* OpcionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpcionesViewController.swift; sourceTree = "<group>"; };
+		CD38B5C31F019DAA00090EEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD38B5C51F01A5C600090EEA /* juego.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = juego.entitlements; sourceTree = "<group>"; };
+		F1028321ED4F1F7445CA3B02 /* Pods_juego.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_juego.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD38B5A91F01966A00090EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3534E884825BAE877172B579 /* Pods_juego.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB22201E03CA935F652926D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FAB625BB724341B22AA40 /* Pods-juego.debug.xcconfig */,
+				6F041F55791B3EEC1307843E /* Pods-juego.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A73DB34A8AA6657E3E88A0C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1028321ED4F1F7445CA3B02 /* Pods_juego.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD38B5A31F01966A00090EEA = {
+			isa = PBXGroup;
+			children = (
+				CD38B5AE1F01966B00090EEA /* juego */,
+				CD38B5AD1F01966B00090EEA /* Products */,
+				6FB22201E03CA935F652926D /* Pods */,
+				A73DB34A8AA6657E3E88A0C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD38B5AD1F01966B00090EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD38B5AC1F01966B00090EEA /* juego.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD38B5AE1F01966B00090EEA /* juego */ = {
+			isa = PBXGroup;
+			children = (
+				24F18AA81F01E317007E7158 /* CorrectoViewController.swift */,
+				CD38B5C51F01A5C600090EEA /* juego.entitlements */,
+				CD38B5C31F019DAA00090EEA /* GoogleService-Info.plist */,
+				CD38B5AF1F01966B00090EEA /* AppDelegate.swift */,
+				CD38B5B11F01966B00090EEA /* IniciarSesionViewController.swift */,
+				CD38B5B31F01966B00090EEA /* Main.storyboard */,
+				24D222351F02B1B000AFA32A /* PuntajesViewController.swift */,
+				24F18AA21F01D04D007E7158 /* JugarViewController.swift */,
+				24D222331F02A8F200AFA32A /* JuegoTerminadoViewController.swift */,
+				CD38B5C11F01990C00090EEA /* OpcionesViewController.swift */,
+				CD38B5B61F01966B00090EEA /* Assets.xcassets */,
+				CD38B5B81F01966B00090EEA /* LaunchScreen.storyboard */,
+				CD38B5BB1F01966B00090EEA /* Info.plist */,
+				24F18AA41F01D265007E7158 /* Pregunta.swift */,
+				24D222371F02B27200AFA32A /* Usuario.swift */,
+			);
+			path = juego;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD38B5AB1F01966A00090EEA /* juego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD38B5BE1F01966B00090EEA /* Build configuration list for PBXNativeTarget "juego" */;
+			buildPhases = (
+				64037B18431E1F2913AA9E37 /* [CP] Check Pods Manifest.lock */,
+				CD38B5A81F01966A00090EEA /* Sources */,
+				CD38B5A91F01966A00090EEA /* Frameworks */,
+				CD38B5AA1F01966A00090EEA /* Resources */,
+				B1C0C4614094C153526FA2BE /* [CP] Embed Pods Frameworks */,
+				52BDF53EEC5B321F97766E61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juego;
+			productName = juego;
+			productReference = CD38B5AC1F01966B00090EEA /* juego.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD38B5A41F01966A00090EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tecsup;
+				TargetAttributes = {
+					CD38B5AB1F01966A00090EEA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = U9FKEV96G2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CD38B5A71F01966A00090EEA /* Build configuration list for PBXProject "juego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD38B5A31F01966A00090EEA;
+			productRefGroup = CD38B5AD1F01966B00090EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD38B5AB1F01966A00090EEA /* juego */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD38B5AA1F01966A00090EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD38B5BA1F01966B00090EEA /* LaunchScreen.storyboard in Resources */,
+				CD38B5B71F01966B00090EEA /* Assets.xcassets in Resources */,
+				CD38B5C41F019DAA00090EEA /* GoogleService-Info.plist in Resources */,
+				CD38B5B51F01966B00090EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52BDF53EEC5B321F97766E61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-juego/Pods-juego-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64037B18431E1F2913AA9E37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C0C4614094C153526FA2BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-juego/Pods-juego-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD38B5A81F01966A00090EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D222361F02B1B000AFA32A /* PuntajesViewController.swift in Sources */,
+				24F18AA31F01D04D007E7158 /* JugarViewController.swift in Sources */,
+				CD38B5C21F01990C00090EEA /* OpcionesViewController.swift in Sources */,
+				24F18AA51F01D265007E7158 /* Pregunta.swift in Sources */,
+				24F18AA91F01E317007E7158 /* CorrectoViewController.swift in Sources */,
+				24D222381F02B27200AFA32A /* Usuario.swift in Sources */,
+				CD38B5B21F01966B00090EEA /* IniciarSesionViewController.swift in Sources */,
+				CD38B5B01F01966B00090EEA /* AppDelegate.swift in Sources */,
+				24D222341F02A8F200AFA32A /* JuegoTerminadoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD38B5B31F01966B00090EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD38B5B41F01966B00090EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD38B5B81F01966B00090EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD38B5B91F01966B00090EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD38B5BC1F01966B00090EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD38B5BD1F01966B00090EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD38B5BF1F01966B00090EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5FAB625BB724341B22AA40 /* Pods-juego.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = juego/juego.entitlements;
+				DEVELOPMENT_TEAM = U9FKEV96G2;
+				INFOPLIST_FILE = juego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tecsup.juego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD38B5C01F01966B00090EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F041F55791B3EEC1307843E /* Pods-juego.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = juego/juego.entitlements;
+				DEVELOPMENT_TEAM = U9FKEV96G2;
+				INFOPLIST_FILE = juego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tecsup.juego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD38B5A71F01966A00090EEA /* Build configuration list for PBXProject "juego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD38B5BC1F01966B00090EEA /* Debug */,
+				CD38B5BD1F01966B00090EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD38B5BE1F01966B00090EEA /* Build configuration list for PBXNativeTarget "juego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD38B5BF1F01966B00090EEA /* Debug */,
+				CD38B5C01F01966B00090EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD38B5A41F01966A00090EEA /* Project object */;
+}
